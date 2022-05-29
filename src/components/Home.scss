@@ -1,0 +1,33 @@
+.home {
+  //width: #{"min(90%, 1200px)"};
+}
+
+.personal {
+  margin: 10rem;
+
+  img {
+    box-shadow: 1px 1px 10px gray;
+    border: 1px inset black;
+    width: 15rem;
+    height: 20rem;
+    border-radius: 80%;
+    transform: scale(0.7);
+  }
+
+}
+
+section {
+  margin-left: 40rem;
+  padding-right: 30rem;
+  padding-left: 2rem;
+  border-bottom: 1px solid black;
+}
+
+.description {
+  margin-top: calc(2rem - 35rem);
+
+}
+
+.projects {
+  margin-top: 30rem;
+}

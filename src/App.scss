@@ -9,34 +9,20 @@ body {
   font-family: 'Red Hat Text', sans-serif;
 }
 
-.flex{
+.content{
+  width: 100%;
+  height: 100%;
+  min-height: 93vh;
+  background-color: #3D5A6C;
   display: flex;
 }
 
-.navbar {
-  background-color: #282c34;
-  padding: 1rem 2rem;
-  border-bottom: 1px solid gray;
-  color: aliceblue;
-}
 
-.sidebar{
-  width: 14rem;
-  height: calc(100vh - 52px);
-  color: aliceblue;
-  background-color: #282c34;
-  border-right: 1px solid gray;
-  ul {
-    list-style: none;
-    padding: 1rem 2rem;
-    li {
-      margin-bottom: 1rem;
-      a {
-        text-decoration: none;
-      }
-    }
-  }
-}
+
+
+
+
+
 /* 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

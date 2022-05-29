@@ -1,4 +1,5 @@
-import './App.scss';
+import '../App.scss';
+import './SideBar.scss'
 import React from 'react';
 import { Link } from 'react-router-dom';
 class SideBar extends React.Component {
